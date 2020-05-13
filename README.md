@@ -4,11 +4,10 @@
 
 For example, if a person has a maximum heart rate of `200`, a resting heart rate of `50`, and a target heart rate of `75%` of the maximum heart rate, the target heart rate should be about `((200-50) * (0.75) + 50)`, i.e., `162.5` beats per minute.
 
-Create a class called `Fitbyte`. Its constructor takes both an age and a resting heart rate as its parameters. The exercise assistant should provide a method target_heart_rate, which is passed a number of type double as a parameter that represents a percentage portion of the maximum heart rate. The proportion is given as a number between zero and one. The class should have:
+Create a class called `FitByte` in a file called `fit_byte.py`. Its constructor takes both an age and a resting heart rate as its parameters. The exercise assistant should provide a method target_heart_rate, which is passed a number of type double as a parameter that represents a percentage portion of the maximum heart rate. The proportion is given as a number between zero and one. The class should have:
 
 - A constructor `def __init__(self, age, resting_heart_rate)`
 - A method `def target_heart_rate(self,percentage_of_maximum)` that calculates and returns the target heart rate.
-
 
 Use the `206.3 - (0.711 * age)` formula to calculate the maximum heart rate.
 
