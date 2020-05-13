@@ -4,7 +4,7 @@ import os
 def test_exercise():
     os.chdir('src')
 
-    from fitbyte import FitByte
+    from fit_byte import FitByte
     age = 25
     resting_heart_rate = 56
     maximum_heart_rate = 206.3 - (0.711 * age)
